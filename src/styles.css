@@ -10,3 +10,13 @@
     color: red;
     padding: 5px;
   }
+
+  body {
+    padding-bottom: 500px; /* scroll*/
+  }
+
+  .aulaclasse {
+    border-bottom: 1px solid red;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
