@@ -1,0 +1,12 @@
+<div class="aulaclasse">
+  <h1>9 - RENDERIZAÇÃO DE LISTAS</h1>
+  <h1>10 - INTERFACES</h1>
+  <h2>Animais:</h2>
+  <ul>
+    <li *ngFor="let animal of animals">
+      Nome: {{ animal.name}} - ({{animal.type}})
+      <button (click)="showAge(animal)">Mostrar Idade</button>
+    </li>
+  </ul>
+  <h3>{{animalDetails}}</h3>
+</div>

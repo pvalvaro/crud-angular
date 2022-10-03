@@ -1,0 +1,10 @@
+<div class="aulaclasse">
+  <h1>12 - TWO WAY DATA BINDING</h1>
+  <form>
+    <input type="text" [(ngModel)]="username" name="username" placeholder="Username">
+    <input type="submit" value="Send">
+  </form>
+  <div *ngIf="username !== ''">
+    <p>O nome do usuario é: {{username}}</p>
+  </div>
+</div>
